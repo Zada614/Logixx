@@ -1,0 +1,970 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DataHub ВУЗ РК — Қазақстан университеттерінің каталогы</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="bg-animation">
+        <div class="floating-shape shape-1"></div>
+        <div class="floating-shape shape-2"></div>
+        <div class="floating-shape shape-3"></div>
+        <div class="floating-shape shape-4"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <div class="logo-icon">
+                    <i class="fas fa-graduation-cap"></i>
+                </div>
+                <span class="logo-text">DataHub<span class="logo-accent">ВУЗ</span></span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="#about">Университеттер</a></li>
+                <li><a href="#programs">Бағдарламалар</a></li>
+                <li><a href="#map">Карта</a></li>
+                <li><a href="#compare">Салыстыру</a></li>
+                <li><a href="#ai-advisor">AI Кеңесші</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button class="btn-lang">
+                    <i class="fas fa-globe"></i>
+                    ҚАЗ
+                </button>
+                <button class="btn-primary">
+                    <i class="fas fa-user-plus"></i>
+                    Кіру
+                </button>
+            </div>
+            <button class="mobile-menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <div class="hero-badge">
+                <i class="fas fa-sparkles"></i>
+                <span>AI-негізделген платформа</span>
+            </div>
+            <h1 class="hero-title">
+                Болашағыңды
+                <span class="gradient-text">бүгін таңда</span>
+            </h1>
+            <p class="hero-subtitle">
+                Қазақстанның 130+ университетін зерттеңіз, салыстырыңыз және өзіңізге сай келетін ЖОО-ны AI көмегімен табыңыз
+            </p>
+            <div class="hero-search">
+                <div class="search-box">
+                    <i class="fas fa-search"></i>
+                    <input type="text" placeholder="Университет, мамандық немесе қала іздеңіз...">
+                    <button class="search-btn">Іздеу</button>
+                </div>
+                <div class="search-tags">
+                    <span class="tag">IT мамандықтары</span>
+                    <span class="tag">Медицина</span>
+                    <span class="tag">Грант</span>
+                    <span class="tag">Алматы</span>
+                </div>
+            </div>
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <span class="stat-number" data-count="130">0</span>
+                    <span class="stat-label">Университет</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" data-count="2500">0</span>
+                    <span class="stat-label">Бағдарлама</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" data-count="50000">0</span>
+                    <span class="stat-label">Студент пікірі</span>
+                </div>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <div class="hero-card card-1">
+                <div class="university-mini">
+                    <div class="uni-avatar">
+                        <i class="fas fa-university"></i>
+                    </div>
+                    <div class="uni-info">
+                        <h4>ҚазҰУ</h4>
+                        <p>Алматы</p>
+                    </div>
+                    <span class="uni-rating">⭐ 4.8</span>
+                </div>
+            </div>
+            <div class="hero-card card-2">
+                <div class="achievement-badge">
+                    <i class="fas fa-trophy"></i>
+                    <span>ТОП 10 ЖОО</span>
+                </div>
+            </div>
+            <div class="hero-card card-3">
+                <div class="ai-bubble">
+                    <i class="fas fa-robot"></i>
+                    <p>Сізге IT мамандығы сай келеді!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Мүмкіндіктер</span>
+                <h2>Платформаның негізгі функциялары</h2>
+                <p>Университет таңдауды жеңілдететін заманауи құралдар</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card feature-large">
+                    <div class="feature-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3>AI Кеңесші</h3>
+                    <p>Қызығушылықтарыңыз бен бағаларыңызға сәйкес университет пен мамандық ұсынады</p>
+                    <button class="feature-btn">Кеңес алу <i class="fas fa-arrow-right"></i></button>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon icon-blue">
+                        <i class="fas fa-balance-scale"></i>
+                    </div>
+                    <h3>Салыстыру</h3>
+                    <p>3-4 университетті бір уақытта салыстырыңыз</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon icon-green">
+                        <i class="fas fa-map-marked-alt"></i>
+                    </div>
+                    <h3>Интерактивті карта</h3>
+                    <p>Қазақстан картасында барлық ЖОО</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon icon-orange">
+                        <i class="fas fa-calculator"></i>
+                    </div>
+                    <h3>Шығын калькуляторы</h3>
+                    <p>Оқу + тұру шығындарын есептеңіз</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon icon-purple">
+                        <i class="fas fa-vr-cardboard"></i>
+                    </div>
+                    <h3>3D-тур</h3>
+                    <p>Кампусты виртуалды түрде шолыңыз</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon icon-red">
+                        <i class="fas fa-calendar-alt"></i>
+                    </div>
+                    <h3>Құжат мерзімдері</h3>
+                    <p>Маңызды күндерді жіберіп алмаңыз</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Universities Section -->
+    <section class="universities" id="programs">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Университеттер</span>
+                <h2>Үздік ЖОО-лар</h2>
+                <p>Қазақстанның ең танымал университеттері</p>
+            </div>
+            <div class="filter-bar">
+                <button class="filter-btn active">Барлығы</button>
+                <button class="filter-btn">Алматы</button>
+                <button class="filter-btn">Астана</button>
+                <button class="filter-btn">Техникалық</button>
+                <button class="filter-btn">Медициналық</button>
+                <button class="filter-btn">Халықаралық</button>
+            </div>
+            <div class="universities-grid">
+                <!-- University Card 1 -->
+                <div class="uni-card">
+                    <div class="uni-card-header">
+                        <div class="uni-logo">
+                            <i class="fas fa-university"></i>
+                        </div>
+                        <div class="uni-badges">
+                            <span class="badge badge-top">ТОП 3</span>
+                            <span class="badge badge-grant">Грант</span>
+                        </div>
+                    </div>
+                    <div class="uni-card-body">
+                        <h3>Әл-Фараби атындағы ҚазҰУ</h3>
+                        <p class="uni-location"><i class="fas fa-map-marker-alt"></i> Алматы қ.</p>
+                        <div class="uni-stats">
+                            <div class="uni-stat">
+                                <span class="stat-value">4.8</span>
+                                <span class="stat-name">Рейтинг</span>
+                            </div>
+                            <div class="uni-stat">
+                                <span class="stat-value">180+</span>
+                                <span class="stat-name">Бағдарлама</span>
+                            </div>
+                            <div class="uni-stat">
+                                <span class="stat-value">25K</span>
+                                <span class="stat-name">Студент</span>
+                            </div>
+                        </div>
+                        <div class="uni-programs">
+                            <span>IT</span>
+                            <span>Медицина</span>
+                            <span>Құқық</span>
+                            <span>+15</span>
+                        </div>
+                    </div>
+                    <div class="uni-card-footer">
+                        <button class="btn-compare"><i class="fas fa-plus"></i> Салыстыру</button>
+                        <button class="btn-details">Толығырақ <i class="fas fa-arrow-right"></i></button>
+                    </div>
+                </div>
+
+                <!-- University Card 2 -->
+                <div class="uni-card">
+                    <div class="uni-card-header">
+                        <div class="uni-logo logo-nazarbayev">
+                            <i class="fas fa-landmark"></i>
+                        </div>
+                        <div class="uni-badges">
+                            <span class="badge badge-top">ТОП 1</span>
+                            <span class="badge badge-int">Халықаралық</span>
+                        </div>
+                    </div>
+                    <div class="uni-card-body">
+                        <h3>Назарбаев Университеті</h3>
+                        <p class="uni-location"><i class="fas fa-map-marker-alt"></i> Астана қ.</p>
+                        <div class="uni-stats">
+                            <div class="uni-stat">
+                                <span class="stat-value">4.9</span>
+                                <span class="stat-name">Рейтинг</span>
+                            </div>
+                            <div class="uni-stat">
+                                <span class="stat-value">60+</span>
+                                <span class="stat-name">Бағдарлама</span>
+                            </div>
+                            <div class="uni-stat">
+                                <span class="stat-value">6K</span>
+                                <span class="stat-name">Студент</span>
+                            </div>
+                        </div>
+                        <div class="uni-programs">
+                            <span>Engineering</span>
+                            <span>Medicine</span>
+                            <span>Business</span>
+                            <span>+8</span>
+                        </div>
+                    </div>
+                    <div class="uni-card-footer">
+                        <button class="btn-compare"><i class="fas fa-plus"></i> Салыстыру</button>
+                        <button class="btn-details">Толығырақ <i class="fas fa-arrow-right"></i></button>
+                    </div>
+                </div>
+
+                <!-- University Card 3 -->
+                <div class="uni-card">
+                    <div class="uni-card-header">
+                        <div class="uni-logo logo-satbayev">
+                            <i class="fas fa-cogs"></i>
+                        </div>
+                        <div class="uni-badges">
+                            <span class="badge badge-top">ТОП 5</span>
+                            <span class="badge badge-tech">Техникалық</span>
+                        </div>
+                    </div>
+                    <div class="uni-card-body">
+                        <h3>Satbayev University</h3>
+                        <p class="uni-location"><i class="fas fa-map-marker-alt"></i> Алматы қ.</p>
+                        <div class="uni-stats">
+                            <div class="uni-stat">
+                                <span class="stat-value">4.7</span>
+                                <span class="stat-name">Рейтинг</span>
+                            </div>
+                            <div class="uni-stat">
+                                <span class="stat-value">90+</span>
+                                <span class="stat-name">Бағдарлама</span>
+                            </div>
+                            <div class="uni-stat">
+                                <span class="stat-value">15K</span>
+                                <span class="stat-name">Студент</span>
+                            </div>
+                        </div>
+                        <div class="uni-programs">
+                            <span>IT</span>
+                            <span>Мұнай-газ</span>
+                            <span>Геология</span>
+                            <span>+12</span>
+                        </div>
+                    </div>
+                    <div class="uni-card-footer">
+                        <button class="btn-compare"><i class="fas fa-plus"></i> Салыстыру</button>
+                        <button class="btn-details">Толығырақ <i class="fas fa-arrow-right"></i></button>
+                    </div>
+                </div>
+
+                <!-- University Card 4 -->
+                <div class="uni-card">
+                    <div class="uni-card-header">
+                        <div class="uni-logo logo-kimep">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <div class="uni-badges">
+                            <span class="badge badge-int">Халықаралық</span>
+                            <span class="badge badge-business">Бизнес</span>
+                        </div>
+                    </div>
+                    <div class="uni-card-body">
+                        <h3>КИМЭП Университеті</h3>
+                        <p class="uni-location"><i class="fas fa-map-marker-alt"></i> Алматы қ.</p>
+                        <div class="uni-stats">
+                            <div class="uni-stat">
+                                <span class="stat-value">4.6</span>
+                                <span class="stat-name">Рейтинг</span>
+                            </div>
+                            <div class="uni-stat">
+                                <span class="stat-value">25+</span>
+                                <span class="stat-name">Бағдарлама</span>
+                            </div>
+                            <div class="uni-stat">
+                                <span class="stat-value">3K</span>
+                                <span class="stat-name">Студент</span>
+                            </div>
+                        </div>
+                        <div class="uni-programs">
+                            <span>MBA</span>
+                            <span>Қаржы</span>
+                            <span>Құқық</span>
+                            <span>+5</span>
+                        </div>
+                    </div>
+                    <div class="uni-card-footer">
+                        <button class="btn-compare"><i class="fas fa-plus"></i> Салыстыру</button>
+                        <button class="btn-details">Толығырақ <i class="fas fa-arrow-right"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="view-all">
+                <button class="btn-view-all">Барлық университеттер <i class="fas fa-arrow-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Map Section -->
+    <section class="map-section" id="map">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Карта</span>
+                <h2>Интерактивті карта</h2>
+                <p>Қазақстанның барлық университеттерін картадан табыңыз</p>
+            </div>
+            <div class="map-container">
+                <div class="map-sidebar">
+                    <div class="map-filters">
+                        <h4><i class="fas fa-filter"></i> Фильтрлер</h4>
+                        <div class="filter-group">
+                            <label>Қала</label>
+                            <select>
+                                <option>Барлық қалалар</option>
+                                <option>Алматы</option>
+                                <option>Астана</option>
+                                <option>Шымкент</option>
+                                <option>Қарағанды</option>
+                            </select>
+                        </div>
+                        <div class="filter-group">
+                            <label>Бағыт</label>
+                            <select>
+                                <option>Барлығы</option>
+                                <option>Техникалық</option>
+                                <option>Медициналық</option>
+                                <option>Гуманитарлық</option>
+                                <option>Экономикалық</option>
+                            </select>
+                        </div>
+                        <div class="filter-group">
+                            <label>Оқу түрі</label>
+                            <div class="checkbox-group">
+                                <label><input type="checkbox" checked> Грант</label>
+                                <label><input type="checkbox" checked> Ақылы</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="map-results">
+                        <h4>Нәтижелер: <span>47 университет</span></h4>
+                        <div class="map-result-item">
+                            <div class="result-marker">1</div>
+                            <div class="result-info">
+                                <h5>ҚазҰУ</h5>
+                                <p>Алматы • 180+ бағдарлама</p>
+                            </div>
+                        </div>
+                        <div class="map-result-item">
+                            <div class="result-marker">2</div>
+                            <div class="result-info">
+                                <h5>Назарбаев Университеті</h5>
+                                <p>Астана • 60+ бағдарлама</p>
+                            </div>
+                        </div>
+                        <div class="map-result-item">
+                            <div class="result-marker">3</div>
+                            <div class="result-info">
+                                <h5>Satbayev University</h5>
+                                <p>Алматы • 90+ бағдарлама</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="map-display">
+                    <div class="kazakhstan-map">
+                        <!-- SVG Map of Kazakhstan -->
+                        <svg viewBox="0 0 800 400" class="kz-map-svg">
+                            <!-- Simplified Kazakhstan outline -->
+                            <path class="map-path" d="M50,200 Q100,100 200,80 T400,60 T600,100 T750,180 Q780,250 700,300 T500,350 T200,320 T50,200 Z"/>
+                            <!-- City markers -->
+                            <g class="city-markers">
+                                <circle class="city-dot" cx="580" cy="140" r="12" data-city="astana"/>
+                                <text x="580" y="170" class="city-label">Астана</text>
+                                
+                                <circle class="city-dot" cx="450" cy="320" r="12" data-city="almaty"/>
+                                <text x="450" y="350" class="city-label">Алматы</text>
+                                
+                                <circle class="city-dot" cx="380" cy="340" r="8" data-city="shymkent"/>
+                                <text x="380" y="365" class="city-label">Шымкент</text>
+                                
+                                <circle class="city-dot" cx="480" cy="200" r="8" data-city="karaganda"/>
+                                <text x="480" y="225" class="city-label">Қарағанды</text>
+                                
+                                <circle class="city-dot" cx="150" cy="180" r="6" data-city="aktobe"/>
+                                <text x="150" y="205" class="city-label">Ақтөбе</text>
+                                
+                                <circle class="city-dot" cx="280" cy="250" r="6" data-city="turkestan"/>
+                                <text x="280" y="275" class="city-label">Түркістан</text>
+                            </g>
+                        </svg>
+                        <!-- Map popup -->
+                        <div class="map-popup" id="mapPopup">
+                            <div class="popup-header">
+                                <h4>Алматы қаласы</h4>
+                                <span class="popup-close">&times;</span>
+                            </div>
+                            <div class="popup-content">
+                                <p><strong>32</strong> университет</p>
+                                <p><strong>1500+</strong> бағдарлама</p>
+                                <button class="popup-btn">Университеттерді көру</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Compare Section -->
+    <section class="compare-section" id="compare">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Салыстыру</span>
+                <h2>Университеттерді салыстырыңыз</h2>
+                <p>4 университетке дейін салыстыру мүмкіндігі</p>
+            </div>
+            <div class="compare-container">
+                <div class="compare-slots">
+                    <!-- Slot 1 - Filled -->
+                    <div class="compare-slot filled">
+                        <button class="remove-btn"><i class="fas fa-times"></i></button>
+                        <div class="slot-logo">
+                            <i class="fas fa-university"></i>
+                        </div>
+                        <h4>ҚазҰУ</h4>
+                    </div>
+                    <!-- Slot 2 - Filled -->
+                    <div class="compare-slot filled">
+                        <button class="remove-btn"><i class="fas fa-times"></i></button>
+                        <div class="slot-logo">
+                            <i class="fas fa-landmark"></i>
+                        </div>
+                        <h4>НУ</h4>
+                    </div>
+                    <!-- Slot 3 - Empty -->
+                    <div class="compare-slot empty">
+                        <div class="add-slot">
+                            <i class="fas fa-plus"></i>
+                            <span>Қосу</span>
+                        </div>
+                    </div>
+                    <!-- Slot 4 - Empty -->
+                    <div class="compare-slot empty">
+                        <div class="add-slot">
+                            <i class="fas fa-plus"></i>
+                            <span>Қосу</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="compare-table">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Параметр</th>
+                                <th>ҚазҰУ</th>
+                                <th>НУ</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Рейтинг</td>
+                                <td><span class="rating">⭐ 4.8</span></td>
+                                <td><span class="rating">⭐ 4.9</span></td>
+                            </tr>
+                            <tr>
+                                <td>Оқу ақысы (жылына)</td>
+                                <td>800 000 ₸</td>
+                                <td>Тегін (грант)</td>
+                            </tr>
+                            <tr>
+                                <td>Жатақхана</td>
+                                <td><i class="fas fa-check text-green"></i> Бар</td>
+                                <td><i class="fas fa-check text-green"></i> Бар</td>
+                            </tr>
+                            <tr>
+                                <td>Халықаралық аккредитация</td>
+                                <td><i class="fas fa-check text-green"></i></td>
+                                <td><i class="fas fa-check text-green"></i></td>
+                            </tr>
+                            <tr>
+                                <td>Оқу тілі</td>
+                                <td>Қаз, Рус, Eng</td>
+                                <td>English</td>
+                            </tr>
+                            <tr>
+                                <td>Студенттер саны</td>
+                                <td>25,000+</td>
+                                <td>6,000+</td>
+                            </tr>
+                            <tr>
+                                <td>Айырбас бағдарламалары</td>
+                                <td>50+ елге</td>
+                                <td>100+ елге</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- AI Advisor Section -->
+    <section class="ai-section" id="ai-advisor">
+        <div class="container">
+            <div class="ai-container">
+                <div class="ai-info">
+                    <span class="section-tag">AI Кеңесші</span>
+                    <h2>Болашағыңызды AI-мен жоспарлаңыз</h2>
+                    <p>Біздің AI-кеңесші сіздің қызығушылықтарыңыз, бағаларыңыз және мақсаттарыңызға сәйкес ең жақсы университет пен мамандықты ұсынады.</p>
+                    <ul class="ai-features">
+                        <li><i class="fas fa-check-circle"></i> Жеке ұсыныстар</li>
+                        <li><i class="fas fa-check-circle"></i> Мансап болжамы</li>
+                        <li><i class="fas fa-check-circle"></i> Жалақы деңгейі</li>
+                        <li><i class="fas fa-check-circle"></i> Еңбек нарығы талдауы</li>
+                    </ul>
+                    <button class="btn-ai-start">
+                        <i class="fas fa-robot"></i>
+                        Тестті бастау
+                    </button>
+                </div>
+                <div class="ai-chat">
+                    <div class="chat-header">
+                        <div class="chat-avatar">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <div class="chat-status">
+                            <h4>DataHub AI</h4>
+                            <span class="online">● Онлайн</span>
+                        </div>
+                    </div>
+                    <div class="chat-messages">
+                        <div class="message bot">
+                            <p>Сәлем! Мен DataHub AI кеңесшісімін. Сізге университет таңдауға көмектесемін. Бастау үшін бірнеше сұрақ қоямын.</p>
+                        </div>
+                        <div class="message bot">
+                            <p>Қандай пәндер сізге ұнайды?</p>
+                            <div class="quick-replies">
+                                <button>Математика</button>
+                                <button>Биология</button>
+                                <button>Тарих</button>
+                                <button>Информатика</button>
+                            </div>
+                        </div>
+                        <div class="message user">
+                            <p>Информатика және математика</p>
+                        </div>
+                        <div class="message bot">
+                            <p>Керемет таңдау! IT саласы қазір өте сұранысқа ие. Сіз үшін бірнеше ұсыныс:</p>
+                        </div>
+                        <div class="message bot recommendation">
+                            <div class="rec-card">
+                                <div class="rec-match">95% сәйкестік</div>
+                                <h5>Computer Science — НУ</h5>
+                                <p>Орташа жалақы: 800,000 ₸/ай</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="chat-input">
+                        <input type="text" placeholder="Хабарлама жазыңыз...">
+                        <button><i class="fas fa-paper-plane"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cost Calculator Section -->
+    <section class="calculator-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Калькулятор</span>
+                <h2>Шығын калькуляторы</h2>
+                <p>Оқу кезеңіндегі шығындарыңызды есептеңіз</p>
+            </div>
+            <div class="calculator-container">
+                <div class="calc-form">
+                    <div class="calc-group">
+                        <label>Университет</label>
+                        <select id="calcUniversity">
+                            <option value="kaznu">ҚазҰУ — 800,000 ₸/жыл</option>
+                            <option value="nu">НУ — Тегін (грант)</option>
+                            <option value="satbayev">Satbayev U. — 900,000 ₸/жыл</option>
+                            <option value="kimep">КИМЭП — 2,500,000 ₸/жыл</option>
+                        </select>
+                    </div>
+                    <div class="calc-group">
+                        <label>Оқу мерзімі</label>
+                        <select id="calcYears">
+                            <option value="4">4 жыл (бакалавр)</option>
+                            <option value="2">2 жыл (магистратура)</option>
+                            <option value="3">3 жыл (докторантура)</option>
+                        </select>
+                    </div>
+                    <div class="calc-group">
+                        <label>Тұру түрі</label>
+                        <select id="calcLiving">
+                            <option value="dorm">Жатақхана — 15,000 ₸/ай</option>
+                            <option value="rent">Жалға үй — 120,000 ₸/ай</option>
+                            <option value="home">Үйде тұрамын</option>
+                        </select>
+                    </div>
+                    <div class="calc-group">
+                        <label>Ай сайынғы шығындар</label>
+                        <input type="range" id="calcExpenses" min="30000" max="150000" value="60000">
+                        <span class="range-value">60,000 ₸</span>
+                    </div>
+                    <button class="calc-btn" onclick="calculateCost()">
+                        <i class="fas fa-calculator"></i>
+                        Есептеу
+                    </button>
+                </div>
+                <div class="calc-result">
+                    <div class="result-header">
+                        <i class="fas fa-chart-pie"></i>
+                        <h3>Жалпы шығын</h3>
+                    </div>
+                    <div class="result-total">
+                        <span class="total-amount">5,680,000</span>
+                        <span class="total-currency">₸</span>
+                    </div>
+                    <div class="result-breakdown">
+                        <div class="breakdown-item">
+                            <span class="breakdown-label">Оқу ақысы</span>
+                            <span class="breakdown-value">3,200,000 ₸</span>
+                        </div>
+                        <div class="breakdown-item">
+                            <span class="breakdown-label">Тұру</span>
+                            <span class="breakdown-value">720,000 ₸</span>
+                        </div>
+                        <div class="breakdown-item">
+                            <span class="breakdown-label">Өмір сүру шығындары</span>
+                            <span class="breakdown-value">1,760,000 ₸</span>
+                        </div>
+                    </div>
+                    <div class="result-tip">
+                        <i class="fas fa-lightbulb"></i>
+                        <p>Грант алсаңыз, ~3,200,000 ₸ үнемдейсіз!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Timeline Section -->
+    <section class="timeline-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Маңызды күндер</span>
+                <h2>Түсу науқаны күнтізбесі — 2025</h2>
+                <p>Құжат тапсыру мерзімдерін жіберіп алмаңыз</p>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item completed">
+                    <div class="timeline-marker">
+                        <i class="fas fa-check"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">Қаңтар — Наурыз</span>
+                        <h4>ҰБТ-ға дайындық</h4>
+                        <p>Таңдаған пәндер бойынша дайындық, пробные тесттер</p>
+                    </div>
+                </div>
+                <div class="timeline-item active">
+                    <div class="timeline-marker">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">20 Маусым — 1 Шілде</span>
+                        <h4>ҰБТ тапсыру</h4>
+                        <p>Негізгі ҰБТ кезеңі. Құжаттарды дайындаңыз!</p>
+                        <span class="timeline-countdown">12 күн қалды</span>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <span>3</span>
+                    </div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">5 — 23 Шілде</span>
+                        <h4>Құжат қабылдау</h4>
+                        <p>Грантқа құжат тапсыру мерзімі</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <span>4</span>
+                    </div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">10 Тамыз</span>
+                        <h4>Грант нәтижелері</h4>
+                        <p>Грант иегерлерінің тізімі жарияланады</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <span>5</span>
+                    </span>
+                    </div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">1 Қыркүйек</span>
+                        <h4>Оқу басталады</h4>
+                        <p>Жаңа оқу жылының басталуы</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section class="reviews-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Пікірлер</span>
+                <h2>Студенттер не дейді?</h2>
+                <p>Нақты студенттердің шынайы пікірлері</p>
+            </div>
+            <div class="reviews-slider">
+                <div class="review-card">
+                    <div class="review-header">
+                        <div class="reviewer-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="reviewer-info">
+                            <h4>Айгерім С.</h4>
+                            <p>ҚазҰУ, IT • 3-курс</p>
+                        </div>
+                        <div class="review-rating">⭐⭐⭐⭐⭐</div>
+                    </div>
+                    <p class="review-text">"DataHub арқылы университетті таңдау өте оңай болды. AI кеңесші маған IT бағытын ұсынды, қазір өз таңдауыма өте ризамын!"</p>
+                    <div class="review-video">
+                        <i class="fas fa-play-circle"></i>
+                        <span>Видео-пікір</span>
+                    </div>
+                </div>
+                <div class="review-card">
+                    <div class="review-header">
+                        <div class="reviewer-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="reviewer-info">
+                            <h4>Асқар М.</h4>
+                            <p>НУ, Engineering • 2-курс</p>
+                        </div>
+                        <div class="review-rating">⭐⭐⭐⭐⭐</div>
+                    </div>
+                    <p class="review-text">"Салыстыру функциясы өте пайдалы! 4 университетті салыстырып, ең жақсысын таңдадым. Грант туралы ақпарат та көп көмектесті."</p>
+                </div>
+                <div class="review-card">
+                    <div class="review-header">
+                        <div class="reviewer-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="reviewer-info">
+                            <h4>Дана Қ.</h4>
+                            <p>КИМЭП, Бизнес • 4-курс</p>
+                        </div>
+                        <div class="review-rating">⭐⭐⭐⭐</div>
+                    </div>
+                    <p class="review-text">"Шығын калькуляторы көзімді ашты! Қанша ақша керек екенін алдын ала білдім және дайындалдым."</p>
+                </div>
+            </div>
+            <div class="reviews-nav">
+                <button class="nav-btn prev"><i class="fas fa-chevron-left"></i></button>
+                <div class="nav-dots">
+                    <span class="dot active"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
+                <button class="nav-btn next"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gamification Section -->
+    <section class="gamification-section">
+        <div class="container">
+            <div class="gamification-banner">
+                <div class="gamification-content">
+                    <div class="badge-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <div class="gamification-text">
+                        <h3>Жетістіктер жина!</h3>
+                        <p>Платформаны зерттеп, бейджиктер жинаңыз және жүлделер ұтып алыңыз</p>
+                    </div>
+                    <div class="badges-preview">
+                        <div class="badge-item">🎓</div>
+                        <div class="badge-item">🔍</div>
+                        <div class="badge-item">⭐</div>
+                        <div class="badge-item">🏆</div>
+                        <div class="badge-item locked">🔒</div>
+                    </div>
+                </div>
+                <button class="gamification-btn">
+                    Жетістіктерді көру
+                    <i class="fas fa-arrow-right"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#" class="logo">
+                        <div class="logo-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <span class="logo-text">DataHub<span class="logo-accent">ВУЗ</span></span>
+                    </a>
+                    <p>Қазақстан университеттерінің толық каталогы — болашағыңызды бүгін жоспарлаңыз!</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-telegram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Навигация</h4>
+                    <ul>
+                        <li><a href="#">Университеттер</a></li>
+                        <li><a href="#">Бағдарламалар</a></li>
+                        <li><a href="#">Карта</a></li>
+                        <li><a href="#">Салыстыру</a></li>
+                        <li><a href="#">AI Кеңесші</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Абитуриенттерге</h4>
+                    <ul>
+                        <li><a href="#">ҰБТ дайындық</a></li>
+                        <li><a href="#">Грант алу</a></li>
+                        <li><a href="#">Құжаттар тізімі</a></li>
+                        <li><a href="#">Жиі қойылатын сұрақтар</a></li>
+                    </ul>
+                </div>
+                <div class="footer-newsletter">
+                    <h4>Жаңалықтар алу</h4>
+                    <p>Маңызды мерзімдер мен жаңалықтарды жіберіп алмаңыз</p>
+                    <div class="newsletter-form">
+                        <input type="email" placeholder="Email мекенжайыңыз">
+                        <button><i class="fas fa-paper-plane"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 DataHub ВУЗ РК. Барлық құқықтар қорғалған.</p>
+                <div class="footer-legal">
+                    <a href="#">Құпиялылық саясаты</a>
+                    <a href="#">Қолдану шарттары</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Quiz Modal -->
+    <div class="modal" id="quizModal">
+        <div class="modal-content quiz-modal">
+            <button class="modal-close"><i class="fas fa-times"></i></button>
+            <div class="quiz-header">
+                <h2>🎓 Саған қай университет сай?</h2>
+                <p>5 сұраққа жауап беріп, өзіңе сай университетті тап!</p>
+            </div>
+            <div class="quiz-progress">
+                <div class="progress-bar">
+                    <div class="progress-fill" style="width: 20%"></div>
+                </div>
+                <span>1/5 сұрақ</span>
+            </div>
+            <div class="quiz-question">
+                <h3>Қандай пәндер сізге ұнайды?</h3>
+                <div class="quiz-options">
+                    <button class="quiz-option">
+                        <i class="fas fa-laptop-code"></i>
+                        <span>Математика, Информатика</span>
+                    </button>
+                    <button class="quiz-option">
+                        <i class="fas fa-flask"></i>
+                        <span>Биология, Химия</span>
+                    </button>
+                    <button class="quiz-option">
+                        <i class="fas fa-book"></i>
+                        <span>Тарих, Тілдер</span>
+                    </button>
+                    <button class="quiz-option">
+                        <i class="fas fa-chart-bar"></i>
+                        <span>Экономика, Бизнес</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="ai-integration.js"></script>
+</body>
+</html>
